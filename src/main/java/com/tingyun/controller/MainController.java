@@ -61,7 +61,6 @@ public class MainController {
         //通过登录的用户来判断是否登录
         String uname = request.getParameter("username");
         String pass = request.getParameter("password");
-
         try {
             request.login(uname,pass);
             System.err.println("success:"+"yse");
